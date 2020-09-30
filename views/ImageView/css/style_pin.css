@@ -1,0 +1,183 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* estilos de header ancho alto y display flexbox*/
+.header{
+    width: 100%;
+    height: 68px;
+    display: flex;
+}
+/* estilos de etiqueta nav dentro del header, ancho alto, posicion pegajosa, display flexbox y alineacion vertical de centro*/
+.header .nav{
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    display: flex;
+    background-color: #ffffffd5 ;
+    align-items: center;
+
+}
+/* estilos de etiqueta div dentro del nav, ancho de 30% que posteriormente se le cambia a buttons right*/
+.button_left, .buttons_right{
+    display: flex;
+    width: 30%;
+}
+
+/* estilos de etiqueta div dentro de button_left*/
+.icon-chevron-left, .icon-ellipsis-h{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+    color:#767676;
+}
+/* estilos a todos los hijos del nav*/
+.nav >*{
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* estilos al link de whatsapp*/
+.link_nav{
+    text-decoration: none;
+    color: black;
+}
+/* estilos al contenedor de whats, share y save*/
+.buttons_right{
+    width: 70%;
+    justify-content: center;
+}
+/* margen izquierdo a los elementos hijos del contenedor derecho*/
+.buttons_right >*{
+    margin-left: 10px;
+}
+/* estilos para el icono de whatsapp*/
+.button_whats{
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(37, 211, 102);
+}
+/* estilos para el icono de share*/
+.button_share{
+    height: 40px;
+    border-radius: 4px;
+    background-color: #efefef;
+}
+/*pading a los lados para el share*/
+.icon-share-alt{
+    padding: 0px 15px;
+}
+/*estilos para centrar, tamaño color para los botones derechos*/
+.icon-whatsapp,.icon-share-alt, .save{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+/*estilos para centrar, tamaño color para los botones derechos*/
+.save{
+    height: 40px;
+    border-radius: 4px;
+    padding: 0px 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #e60023;
+}
+/*color para el icono de whatsapp*/
+.icon-whatsapp{
+    color: white;
+}
+
+/*  Estilos para section de foto con sus textos y botones */
+
+section{
+    width: 100%;
+    font-size: 0.9rem;
+}
+article{
+    margin-top: 5px;
+}
+.image{
+    width: 100%;
+    margin: 0px;
+}
+
+.image img{
+    width: 100%;
+}
+.contenedor_visit{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sold{
+    margin-left: 5px;
+}
+
+.sold a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.button_visit{
+    width: 60px;
+    height: 40px;
+    margin: auto 0px;
+    margin-right: 7px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #efefef;
+}
+
+.description{
+    margin-left: 7px;
+}
+
+hr{
+    border-top: 1px solid #ddd;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.tittle{
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2px;
+    row-gap: 2px;
+    padding: 0px 5px;
+}
+
+.gallery img{
+    border-radius: 10%;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media screen and (min-width: 760){
+    body{
+        background-color: tomato;
+    }
+}
