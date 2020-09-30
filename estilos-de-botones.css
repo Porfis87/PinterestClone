@@ -1,0 +1,20 @@
+		.social{
+			/*border:1px solid #000;*/
+      height:22px;
+      width:22px;
+  /*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+      margin-top:-20px;
+      border-radius:50%;
+      position:fixed;
+			top:70%;
+      right:2px;
+      line-height: 48px;
+    }
+    .social a{
+    box-shadow: 2px 2px 2px gray ;
+    }
+
+.social a img{
+width: 100%;
+border-radius: 50%;
+}
