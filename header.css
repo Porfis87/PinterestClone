@@ -1,0 +1,62 @@
+.header{
+
+    border: black 0px solid;
+    height: 80px;
+    display: flex;
+    /* align-content: space-around;
+    justify-content: space-between;
+    align-items: center; */
+   
+}
+.navizq{
+    border: red 0px solid;
+    height: 80px;
+    width: 30%;
+    background-color: gray;
+      
+}
+
+.pinterestlogo{
+    width: 50px;
+    
+}
+
+.centro{
+    border: steelblue 0px solid;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0px;   
+}
+input{
+    width: 40%;
+    padding: 12px 10px;
+    margin: 0px 0px; 
+    border-radius: 100px;
+}
+.navder{
+    border: steelblue 0px solid;
+    width: 30%;
+    padding: 5px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campalert{
+       height: 40px;
+       margin: 0px 15px
+   }
+   .bubble{
+       height: 40px;
+       margin: 0px 15px
+   }
+   .perfilicon{
+       height: 40px;
+       border-radius: 50%;
+       margin: 0px 15px
+   }
+   .list{
+       width: 20px;
+       margin: 0px 15px
+   }
